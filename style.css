@@ -1,0 +1,83 @@
+body
+{
+    background-color: black !important;
+
+}
+input{
+    outline: none;
+}
+.heads
+{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+ul
+{
+    margin-left: auto;
+}
+.navbar-brand img
+{
+    height: 100px;
+}
+a.nav-link
+{
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.inputttt
+{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    /* width: 50%; */
+}
+.inputttt button{
+    background-color: red;
+    border: 1px;
+    padding: 3px 10px;
+}
+.inputttt .yello
+{
+    font-size: 20px;
+}
+.home
+{   margin: 0 auto;
+    background-color:rgb(255, 255, 255);
+    padding: 50px 50px;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 6px solid rgb(31, 31, 31);
+    min-height: 500px;
+}
+.currentW{
+    font-family: cursive;
+    font-size: 30px;
+}
+.weatherCardDown
+{
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .home
+    {   
+        width: 80%;
+    }
+    .inputttt {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+        /* width: 0; */
+    }
+}
+@media only screen and (max-width: 320px) {
+    .home
+    {   
+        width: 95%;
+    }
+}
